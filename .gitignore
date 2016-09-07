@@ -1,0 +1,3 @@
+# Ignore eagle temporary files
+*.s\#*
+*.b\#*
