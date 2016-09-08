@@ -3634,9 +3634,9 @@
 <label x="-162.56" y="-44.45" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO16*/HS1_DATA4/U2RXD/EMAC_CLK_OUT"/>
-<wire x1="-63.5" y1="1.27" x2="-66.04" y2="1.27" width="0.1524" layer="91"/>
-<label x="-66.04" y="1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="GPIO00*/ADC2_CH1/TOUCH1/RTC_GPIO11/CLK_OUT1/EMAC_TX_CLK"/>
+<wire x1="-63.5" y1="41.91" x2="-66.04" y2="41.91" width="0.1524" layer="91"/>
+<label x="-66.04" y="41.91" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CS2" class="0">
@@ -3658,57 +3658,57 @@
 <label x="-162.56" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO00*/ADC2_CH1/TOUCH1/RTC_GPIO11/CLK_OUT1/EMAC_TX_CLK"/>
-<wire x1="-63.5" y1="41.91" x2="-66.04" y2="41.91" width="0.1524" layer="91"/>
-<label x="-66.04" y="41.91" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="GPIO16*/HS1_DATA4/U2RXD/EMAC_CLK_OUT"/>
+<wire x1="-63.5" y1="1.27" x2="-66.04" y2="1.27" width="0.1524" layer="91"/>
+<label x="-66.04" y="1.27" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A0" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="-57.15" y1="54.61" x2="-59.69" y2="54.61" width="0.1524" layer="91"/>
-<label x="-59.69" y="54.61" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO32/32K_XP*/ADC1_CH4/TOUCH9/RTC_GPIO9"/>
 <wire x1="-63.5" y1="-24.13" x2="-66.04" y2="-24.13" width="0.1524" layer="91"/>
 <label x="-66.04" y="-24.13" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="A2" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="-57.15" y1="52.07" x2="-59.69" y2="52.07" width="0.1524" layer="91"/>
-<label x="-59.69" y="52.07" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO25*/DAC_1/ADC2_CH8/RTC_GPIO6/EMAC_RXD0"/>
-<wire x1="-63.5" y1="-16.51" x2="-66.04" y2="-16.51" width="0.1524" layer="91"/>
-<label x="-66.04" y="-16.51" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A1" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="-41.91" y1="54.61" x2="-39.37" y2="54.61" width="0.1524" layer="91"/>
-<label x="-39.37" y="54.61" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="GPIO33/32K_XN*/ADC1_CH5/TOUCH8/RTC_GPIO8"/>
-<wire x1="-63.5" y1="-26.67" x2="-66.04" y2="-26.67" width="0.1524" layer="91"/>
-<label x="-66.04" y="-26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="-39.37" y1="52.07" x2="-41.91" y2="52.07" width="0.1524" layer="91"/>
 <label x="-39.37" y="52.07" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO25*/DAC_1/ADC2_CH8/RTC_GPIO6/EMAC_RXD0"/>
+<wire x1="-63.5" y1="-16.51" x2="-66.04" y2="-16.51" width="0.1524" layer="91"/>
+<label x="-66.04" y="-16.51" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="-41.91" y1="54.61" x2="-39.37" y2="54.61" width="0.1524" layer="91"/>
+<label x="-39.37" y="54.61" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO33/32K_XN*/ADC1_CH5/TOUCH8/RTC_GPIO8"/>
+<wire x1="-63.5" y1="-26.67" x2="-66.04" y2="-26.67" width="0.1524" layer="91"/>
+<label x="-66.04" y="-26.67" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="-57.15" y1="52.07" x2="-59.69" y2="52.07" width="0.1524" layer="91"/>
+<label x="-59.69" y="52.07" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO26*/DAC_2/ADC2_CH9/RTC_GPIO7/RMAC_RXD1"/>
 <wire x1="-63.5" y1="-19.05" x2="-66.04" y2="-19.05" width="0.1524" layer="91"/>
 <label x="-66.04" y="-19.05" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="-57.15" y1="54.61" x2="-59.69" y2="54.61" width="0.1524" layer="91"/>
+<label x="-59.69" y="54.61" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RX" class="0">
